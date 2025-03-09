@@ -5,12 +5,35 @@
 }
 
 
+body {
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main {
+    margin: 1rem;
+    align-items: center;
+   
+  
+}
+
+.grid {
+    grid-column: 2/3;
+    grid-row: 2/3;  
+   
+
+
+}
+
+
 .logo-box {
     text-align: left;
 }
 nav {
     background-color: rgb(144, 144, 189);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 nav a{
     color: white;
@@ -68,10 +91,12 @@ main {
     
 }
  
-aside {
-    width: 20em;
-    text-align: center;
+.box {
+    width: 20rem;
+  
     position: relative;
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 aside img {
     width: 200px;
@@ -103,9 +128,7 @@ p {
     padding: 1rem;
     background-color: rgb(255, 192, 239);
     color: black;
-    
-    
- }
+}
 
  .indent {
     padding-left: 2rem;
