@@ -133,3 +133,14 @@ p {
  .indent {
     padding-left: 2rem;
  }
+
+ aside {
+    background-color: #c47eb8;  /* Light grey background for better contrast */
+    padding: 1rem;
+    border: 1px solid #b99292;   /* Light border to visually separate it */
+    border-radius: 8px;        /* Rounded corners for aesthetic appeal */
+    box-shadow: 0 4px 8px rgba(199, 68, 188, 0.1);  /* Subtle shadow for depth */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
